@@ -1,3 +1,5 @@
+// terminal command:
+// nativefier 'https://cad.onshape.com/documents' --inject ./login-script.js
 
 const EMAIL = 'your Onshape email';
 const PASSWORD = 'your Onshape password';

@@ -9,6 +9,8 @@ Here's a quick workaround to create a native MacOS app for Onshape, with a enabl
 - Dark mode simply inverts colors on the whole page, but it looks surprisingly well
 - Removes the 'Try Professional' banner on top (sorry, Onshape team!)
 
+[![Onshape darkmode demo](https://img.youtube.com/vi/qEKsYfCBQoY/0.jpg)](https://www.youtube.com/watch?v=qEKsYfCBQoY)
+
 
 ## Getting Started
 
@@ -31,7 +33,7 @@ To create your Onshape desktop application with auto-login and dark mode enabled
 
 
 ```bash
-nativefier 'https://cad.onshape.com/{...full Onshape start screen URL}' --name "Onshape" --inject path/to/login-script.js
+nativefier 'https://cad.onshape.com/documents' --name "Onshape" --inject path/to/login-script.js
 ```
 
 Replace `path/to/login-script.js` with the actual path to the files in your cloned or downloaded project directory.
